@@ -1,0 +1,9 @@
+I am providing the link to my project repository for the current course:
+
+https://github.com/ShkrabachenkoDaria/khai-node-js-course
+
+I would like to clarify that I have a primary GitHub account (username: Witch121) which I use for all my work. Since this account is linked to my VSCode, I prefer not to change it. Therefore, I have added my new account, which is linked to the @khai.edu email address as requested in the previous lab, as a collaborator to the repository. I hope this approach is acceptable and won't pose any issues.
+
+Please let me know if you need any further information or adjustments.
+
+Thank you for your understanding.
