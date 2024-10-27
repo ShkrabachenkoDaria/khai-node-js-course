@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F0F8FF;
+    color: #133926;
+    margin: 1.5rem;
+  }
+  
+  h1 {
+    color: #00664d;
+  }
+
+  h2{
+    font-weight: 400;
+    margin: 0;
+  }
+
+  h3 {
+    font-weight: 300;
+  }
+  
+  .book-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .book-item {
+    padding: 1rem;
+  }
+  a {
+    text-decoration: none;
+    color: #00664d;
+  }
+  a:hover {
+    color: #133926;
+    font-weight: 600;
+  }
