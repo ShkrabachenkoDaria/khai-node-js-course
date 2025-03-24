@@ -15,6 +15,14 @@ const books = [
   { id: 9, name: "A Moveable Feast", author: "Ernest Hemingway", info: "Set in 1920s Paris, this memoir captures Hemingway’s youthful days as a writer. Its charming prose and nostalgic insights make it a cozy autumn read, perfect for warm drinks and sweater weather."  },
 ];
 
+
+const bodyParser = require('body-parser');
+app.use(bodyParser.json());
+
+
+const userRouter = require('./user.router');
+app.use(userRouter);
+
 app.use(express.static("public"));
 
 app.get('/', (req, res) => {
