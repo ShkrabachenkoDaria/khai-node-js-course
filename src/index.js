@@ -23,6 +23,9 @@ app.use(bodyParser.json());
 const userRouter = require('./user.router');
 app.use(userRouter);
 
+const productRouter = require('./product/product.router');
+app.use(productRouter);
+
 app.use(express.static("public"));
 
 app.get('/', (req, res) => {
